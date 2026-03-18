@@ -34,7 +34,7 @@ const Navigation = () => {
             }`}
           >
             <img 
-              src="/images/logo1.png" 
+              src="/images/logo.png" 
               alt="KNOOZ ALHARAM Logo" 
               className="h-12 w-auto mr-3"
             />

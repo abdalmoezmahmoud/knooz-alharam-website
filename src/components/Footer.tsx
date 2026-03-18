@@ -44,9 +44,9 @@ const Footer = () => {
             >
               <div className="flex items-center mb-4">
                 <img 
-                  src="/images/logo.png" 
+                  src="/images/logo1.png" 
                   alt="KNOOZ ALHARAM Logo" 
-                  className="h-16 w-auto mr-4"
+                  className="h-20 w-auto mr-4"
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-white">KNOOZ ALHARAM</h3>

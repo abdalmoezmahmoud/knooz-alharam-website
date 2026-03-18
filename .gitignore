@@ -41,5 +41,5 @@ ehthumbs.db
 Thumbs.db
 
 # Images folder (will be added manually)
-/public/images/
-!public/images/.gitkeep
+# /public/images/
+# !public/images/.gitkeep

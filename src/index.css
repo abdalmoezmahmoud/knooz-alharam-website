@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global overflow fixes */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +21,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 html {
@@ -26,6 +31,7 @@ html {
 #root {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* Mobile responsiveness fixes */

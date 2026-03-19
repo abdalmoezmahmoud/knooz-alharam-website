@@ -247,6 +247,7 @@ const Contact = () => {
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
                     className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center gap-3"
                   >
                     <CheckCircle className="text-green-600" size={24} />
@@ -262,6 +263,7 @@ const Contact = () => {
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
                     className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center gap-3"
                   >
                     <AlertCircle className="text-red-600" size={24} />
